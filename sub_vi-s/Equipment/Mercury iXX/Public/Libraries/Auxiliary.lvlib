@@ -46,12 +46,12 @@
 		<Item Name="Read" Type="Folder">
 			<Item Name="Position (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Position (Read).vi"/>
 			<Item Name="Percent Open (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Percent Open (Read).vi"/>
-			<Item Name="Input State (Read).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Auxiliary/Signals/Read/Input State (Read).vi"/>
-			<Item Name="Output State (Read).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Auxiliary/Signals/Read/Output State (Read).vi"/>
+			<Item Name="Input State (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Input State (Read).vi"/>
+			<Item Name="Output State (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Output State (Read).vi"/>
 		</Item>
 		<Item Name="Set" Type="Folder">
 			<Item Name="Output State (Set).vi" Type="VI" URL="../Auxiliary/Signals/Set/Output State (Set).vi"/>
-			<Item Name="Percent Open (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Auxiliary/Signals/Set/Percent Open (Set).vi"/>
+			<Item Name="Percent Open (Set).vi" Type="VI" URL="../Auxiliary/Signals/Set/Percent Open (Set).vi"/>
 		</Item>
 	</Item>
 	<Item Name="Utility" Type="Folder">

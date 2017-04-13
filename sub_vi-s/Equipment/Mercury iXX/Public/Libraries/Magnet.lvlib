@@ -73,7 +73,7 @@
 			<Item Name="Target Current Rate (Read).vi" Type="VI" URL="../Magnet/Signals/Read/Target Current Rate (Read).vi"/>
 			<Item Name="Target Field Rate (Read).vi" Type="VI" URL="../Magnet/Signals/Read/Target Field Rate (Read).vi"/>
 			<Item Name="Switch Heater Status (Read).vi" Type="VI" URL="../Magnet/Signals/Read/Switch Heater Status (Read).vi"/>
-			<Item Name="Switch Heater Status No Check (Read).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Magnet/Signals/Read/Switch Heater Status No Check (Read).vi"/>
+			<Item Name="Switch Heater Status No Check (Read).vi" Type="VI" URL="../Magnet/Signals/Read/Switch Heater Status No Check (Read).vi"/>
 		</Item>
 		<Item Name="Set" Type="Folder">
 			<Item Name="Target Current (Set).vi" Type="VI" URL="../Magnet/Signals/Set/Target Current (Set).vi"/>

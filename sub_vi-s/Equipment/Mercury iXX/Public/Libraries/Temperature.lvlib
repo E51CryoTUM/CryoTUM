@@ -39,7 +39,7 @@
 			<Item Name="Calibration Hot Limit (Read).vi" Type="VI" URL="../Temperature/Configuration/Read/Calibration Hot Limit (Read).vi"/>
 			<Item Name="Calibration Cold Limit (Read).vi" Type="VI" URL="../Temperature/Configuration/Read/Calibration Cold Limit (Read).vi"/>
 			<Item Name="Calibration LastCal (Read).vi" Type="VI" URL="../Temperature/Configuration/Read/Calibration LastCal (Read).vi"/>
-			<Item Name="DevSysInfo (Read).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Temperature/Configuration/Read/DevSysInfo (Read).vi"/>
+			<Item Name="DevSysInfo (Read).vi" Type="VI" URL="../Temperature/Configuration/Read/DevSysInfo (Read).vi"/>
 		</Item>
 		<Item Name="Set" Type="Folder">
 			<Item Name="Temperature Device (Set).vi" Type="VI" URL="../Temperature/Configuration/Set/Temperature Device (Set).vi"/>

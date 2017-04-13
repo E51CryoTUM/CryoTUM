@@ -14,7 +14,7 @@ RWB.  May 4th 2016</Property>
 
 </Property>
 	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="VI Ref Lookup Cluster.ctl" Type="VI" URL="../Private/Controls/VI Ref Lookup Cluster.ctl"/>
 			<Item Name="Lookup Reference FGV Enum.ctl" Type="VI" URL="../Private/Controls/Lookup Reference FGV Enum.ctl"/>
@@ -62,7 +62,7 @@ RWB.  May 4th 2016</Property>
 			<Item Name="Response String.ctl" Type="VI" URL="../Public/Controls/Response String.ctl"/>
 			<Item Name="Unit String.ctl" Type="VI" URL="../Public/Controls/Unit String.ctl"/>
 			<Item Name="Manufacturing Data.ctl" Type="VI" URL="../Public/Controls/Manufacturing Data.ctl"/>
-			<Item Name="SI Prefix.ctl" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Controls/SI Prefix.ctl"/>
+			<Item Name="SI Prefix.ctl" Type="VI" URL="../Public/Controls/SI Prefix.ctl"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="System.lvlib" Type="Library" URL="../Public/Libraries/System.lvlib"/>
@@ -77,9 +77,9 @@ RWB.  May 4th 2016</Property>
 			<Item Name="Lambda.lvlib" Type="Library" URL="../Public/Libraries/Lambda.lvlib"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
-			<Item Name="String To Value with no SI Prefix.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Utilities/String To Value with no SI Prefix.vi"/>
-			<Item Name="Value with no SI Prefix To Value with SI prefix.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Utilities/Value with no SI Prefix To Value with SI prefix.vi"/>
-			<Item Name="Value with SI prefix To Value with SI prefix.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Utilities/Value with SI prefix To Value with SI prefix.vi"/>
+			<Item Name="String To Value with no SI Prefix.vi" Type="VI" URL="../Public/Utilities/String To Value with no SI Prefix.vi"/>
+			<Item Name="Value with no SI Prefix To Value with SI prefix.vi" Type="VI" URL="../Public/Utilities/Value with no SI Prefix To Value with SI prefix.vi"/>
+			<Item Name="Value with SI prefix To Value with SI prefix.vi" Type="VI" URL="../Public/Utilities/Value with SI prefix To Value with SI prefix.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Examples" Type="Folder">
@@ -89,10 +89,10 @@ RWB.  May 4th 2016</Property>
 		<Item Name="IPS IL test.vi" Type="VI" URL="../Examples/IPS IL test.vi"/>
 		<Item Name="Basic ITC-Init.vi" Type="VI" URL="../Examples/Basic ITC-Init.vi"/>
 		<Item Name="Basic ITC-IL.vi" Type="VI" URL="../Examples/Basic ITC-IL.vi"/>
-		<Item Name="ITC IL test.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/ITC IL test.vi"/>
-		<Item Name="Example - Basic IPS-SA.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Example - Basic IPS-SA.vi"/>
-		<Item Name="Merc Gen Command TCP-IP VI.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Merc Gen Command TCP-IP VI.vi"/>
-		<Item Name="Merc Gen SCPI Command TCP-IP VI.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Merc Gen SCPI Command TCP-IP VI.vi"/>
+		<Item Name="ITC IL test.vi" Type="VI" URL="../Examples/ITC IL test.vi"/>
+		<Item Name="Example - Basic IPS-SA.vi" Type="VI" URL="../Examples/Example - Basic IPS-SA.vi"/>
+		<Item Name="Merc Gen Command TCP-IP VI.vi" Type="VI" URL="../Examples/Merc Gen Command TCP-IP VI.vi"/>
+		<Item Name="Merc Gen SCPI Command TCP-IP VI.vi" Type="VI" URL="../Examples/Merc Gen SCPI Command TCP-IP VI.vi"/>
 		<Item Name="Merc_Connection_Example.vi" Type="VI" URL="../Examples/Merc_Connection_Example.vi"/>
 		<Item Name="Merc_Connection_Check.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Examples/Merc_Connection_Check.vi"/>
 		<Item Name="Example - Set configuration.vi" Type="VI" URL="../Examples/Example - Set configuration.vi"/>

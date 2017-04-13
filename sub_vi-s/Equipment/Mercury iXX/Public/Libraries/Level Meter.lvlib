@@ -70,7 +70,7 @@
 			<Item Name="Probe Frequency Nitrogen (Read).vi" Type="VI" URL="../Level Meter/Signals/Read/Probe Frequency Nitrogen (Read).vi"/>
 		</Item>
 		<Item Name="Set" Type="Folder">
-			<Item Name="Probe Count Nitrogen (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Level Meter/Signals/Set/Probe Count Nitrogen (Set).vi"/>
+			<Item Name="Probe Count Nitrogen (Set).vi" Type="VI" URL="../Level Meter/Signals/Set/Probe Count Nitrogen (Set).vi"/>
 		</Item>
 	</Item>
 	<Item Name="Utility" Type="Folder">

@@ -13,7 +13,7 @@
 </Property>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Pressure Sensor Type.ctl" Type="VI" URL="../Pressure/Controls/Pressure Sensor Type.ctl"/>
-		<Item Name="Excitation Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Pressure/Controls/Excitation Type.ctl"/>
+		<Item Name="Excitation Type.ctl" Type="VI" URL="../Pressure/Controls/Excitation Type.ctl"/>
 		<Item Name="Calibration Interpolation.ctl" Type="VI" URL="../Pressure/Controls/Calibration Interpolation.ctl"/>
 		<Item Name="Pressure Device (Read).ctl" Type="VI" URL="../Pressure/Controls/Pressure Device (Read).ctl"/>
 		<Item Name="Calibration Cluster.ctl" Type="VI" URL="../Pressure/Controls/Calibration Cluster.ctl"/>
@@ -36,7 +36,7 @@
 			<Item Name="Calibration High Limit (Read).vi" Type="VI" URL="../Pressure/Configuration/Read/Calibration High Limit (Read).vi"/>
 			<Item Name="Calibration Low Limit (Read).vi" Type="VI" URL="../Pressure/Configuration/Read/Calibration Low Limit (Read).vi"/>
 			<Item Name="Calibration LastCal (Read).vi" Type="VI" URL="../Pressure/Configuration/Read/Calibration LastCal (Read).vi"/>
-			<Item Name="DevSysInfo (Read).vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/Pressure/Configuration/Read/DevSysInfo (Read).vi"/>
+			<Item Name="DevSysInfo (Read).vi" Type="VI" URL="../Pressure/Configuration/Read/DevSysInfo (Read).vi"/>
 		</Item>
 		<Item Name="Set" Type="Folder">
 			<Item Name="Pressure Device (Set).vi" Type="VI" URL="../Pressure/Configuration/Set/Pressure Device (Set).vi"/>

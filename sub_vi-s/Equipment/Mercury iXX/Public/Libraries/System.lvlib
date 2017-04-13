@@ -45,5 +45,5 @@
 		<Item Name="Display Automatic Dimming Time (Set).vi" Type="VI" URL="../System/Set/Display Automatic Dimming Time (Set).vi"/>
 		<Item Name="Display Brightness (Set).vi" Type="VI" URL="../System/Set/Display Brightness (Set).vi"/>
 	</Item>
-	<Item Name="Open System2.vi" Type="VI" URL="/&lt;instrlib&gt;/Mercury iXX/Public/Libraries/System/Open/Open System2.vi"/>
+	<Item Name="Open System2.vi" Type="VI" URL="../System/Open/Open System2.vi"/>
 </Library>
