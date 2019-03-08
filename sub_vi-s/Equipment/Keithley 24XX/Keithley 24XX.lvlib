@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="16008000">
+<Library LVVersion="18008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for the Keithley 2400 series of Source Meters</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*?!!!*Q(C=\&gt;1R;BN"&amp;-&lt;RTS&amp;&amp;7BUAE'C0]+[A+YB!Q/W\AKK!3VXB18)"A4NXOM,L!Y9^A9F3J(#J`'@WL3)X6B.$!N\VL&amp;@@T,\Z;8;V5N`?37^VP,2J'$3UY@S@TNG(_&gt;D[?^KDO@@0%0L\;4^7J;('N_0=0XW?STTJ0[^`.MWJ`MGHO@94X`$MVO:`&lt;HPN@_X`P`MP`&lt;SFGYO$8HC4LLK5FL3A/=X[NTMG?:)H?:)H?:)(?:!(?:!(?:!\O:-\O:-\O:-&lt;O:%&lt;O:%&lt;O:(XH6TE)B=ZKZ*-HES5&amp;%U+*)/B+$EEHM34?")0(Z6Y%E`C34S*BS&amp;+0)EH]33?R-.F3DS**`%EHM2$K3\*PJ0D34S56_!*0)%H]!1?JF4A#1$":%(BI!A-":X"3?!*0)'(5Q7?Q".Y!E`AI6O"*`!%HM!4?,CELUJU4&gt;P*]6"'DM@R/"\(YXAI,=@D?"S0YX%]4#@(YXA=B$/B5RS#H)O=!=Y(R_.Y_#@(YXA=D_.R0(4V/_2^::KG\?2Y$)`B-4S'R`"11I&lt;(]"A?QW.Y+#P$9XA-D_%R0%QFQW.Y$)]"-3:F?BH&amp;D!O.15:A?0DL4YPVOR2&gt;9HWPH_&lt;UI+I?1.7$J8JA6!_#[A;L&lt;JTKBKA77L7!KI62@7(6&amp;V%"62/L#KI'[M"RJ/VJ/^K7NK'N;3P;EL:IF`\FA9@$1?-Y;L`@;\@&lt;;&lt;P&gt;;L0:;,V?;\6;;&lt;F=;L&amp;9H.Z7(^CH\7J_,^X:J_P&lt;(Z]@PHZZ``DNV`BY_`0_Y?\D^_P7&gt;]/YFWL4?_F@?$@KD9ZHLXH7[$&gt;LY"L(!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*?!!!*Q(C=\&gt;1R;BN"&amp;-&lt;RTS&amp;&amp;7BUAE'C0]+[A+YB!Q/W\AKK!3VXB18)"A4NXOM,L!Y9^A9F3J(#J`'@WL3)X6B.$!N\VL&amp;@@T,\Z;8;V5N`?37^VP,2J'$3UY@S@TNG(_&gt;D[?^KDO@@0%0L\;4^7J;('N_0=0XW?STTJ0[^`.MWJ`MGHO@94X`$MVO:`&lt;HPN@_X`P`MP`&lt;SFGYO$8HC4LLK5FL3A/=X[NTMG?:)H?:)H?:)(?:!(?:!(?:!\O:-\O:-\O:-&lt;O:%&lt;O:%&lt;O:(XH6TE)B=ZKZ*-HES5&amp;%U+*)/B+$EEHM34?")0(Z6Y%E`C34S*BS&amp;+0)EH]33?R-.F3DS**`%EHM2$K3\*PJ0D34S56_!*0)%H]!1?JF4A#1$":%(BI!A-":X"3?!*0)'(5Q7?Q".Y!E`AI6O"*`!%HM!4?,CELUJU4&gt;P*]6"'DM@R/"\(YXAI,=@D?"S0YX%]4#@(YXA=B$/B5RS#H)O=!=Y(R_.Y_#@(YXA=D_.R0(4V/_2^::KG\?2Y$)`B-4S'R`"11I&lt;(]"A?QW.Y+#P$9XA-D_%R0%QFQW.Y$)]"-3:F?BH&amp;D!O.15:A?0DL4YPVOR2&gt;9HWPH_&lt;UI+I?1.7$J8JA6!_#[A;L&lt;JTKBKA77L7!KI62@7(6&amp;V%"62/L#KI'[M"RJ/VJ/^K7NK'N;3P;EL:IF`\FA9@$1?-Y;L`@;\@&lt;;&lt;P&gt;;L0:;,V?;\6;;&lt;F=;L&amp;9H.Z7(^CH\7J_,^X:J_P&lt;(Z]@PHZZ``DNV`BY_`0_Y?\D^_P7&gt;]/YFWL4?_F@?$@KD9ZHLXH7[$&gt;LY"L(!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.1.1.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
