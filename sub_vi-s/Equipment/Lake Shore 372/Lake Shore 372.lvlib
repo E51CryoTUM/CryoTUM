@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="16008000">
+<Library LVVersion="18008000">
 	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
 	<Property Name="Alarm Database Name" Type="Str">C__Program_Files__x86__National_Instruments_LabVIEW_2015_data</Property>
 	<Property Name="Alarm Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2015\data</Property>
@@ -16,8 +16,8 @@ Instrument I/O Control&gt;&gt;
       Instrument Drivers&gt;&gt;
                   LakeShore 372</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*.!!!*Q(C=\&gt;1RDNJ1%-&lt;R&lt;[-5WZ)4L'AJZQLE!J'YQFS"FG),L\2&amp;UG7+3#%F6`!6ZA*&lt;=!7OY0T^0'S7,;!*5C*B-W#_^`T?DW&gt;DK7XXUE=.F\&lt;&amp;W9XW9@I=WJ@&amp;]7.M'&amp;\&lt;JT\D[XB5^?@]R@OGYVAF'%\0L`ZNGKF/ZF_]-:TX[_RW;\_V`^`N&amp;T&lt;[&lt;#ZWOP)GX45JF6214FH\&gt;5/3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XH&lt;S55O=J'T+MHES54*I-E!37=I3NY34_**0)G(LUI]C3@R**\%1R=FHM34?"*0YO%U*:\%EXA34_*BK#&lt;*NJ0D34Q-L]!4?!*0Y!E]4+H!%Q##S9+"AU&amp;A+'A-$A*0Y!E](#LQ"*\!%XA#$]U+0)%H]!3?Q--J&lt;67C;=;&gt;(!`$S0%Y(M@D?"Q01]PR/"\(YXA=$^0*]4A?"_&amp;-[!Q/1=Z*4A@HC_.R0(T)]4A?R_.Y(!^.\1JZ7ZF2-_\E?!S0Y4%]BM@Q-)1-D_%R0)&lt;(]$#M$)`B-4S'R`!QF1S0Y4%]"M39F/FF$';=;(1S!M0$K^UNVKZ3.)GVP@[;UYWKOA&amp;6.Z&lt;KBF(&gt;#+I,L,JQKAOC7GD6!KI72P7$64^%"62.L"J1V6%(XP&gt;54_WIDFJ4+WJ*T;H:?/J@\HAY(,4@\^8XP8;\H&lt;KOUXK^VGKVUH+ZV(Q_VWQW?XV;0&lt;"0W^XRO&lt;4B?*PR]OP4Y_@NV_\JZZ@(&lt;`XT^R^D@MW;HEP`QL.2(T3]?=ST2L]"\;"0/1!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*.!!!*Q(C=\&gt;1RDNJ1%-&lt;R&lt;[-5WZ)4L'AJZQLE!J'YQFS"FG),L\2&amp;UG7+3#%F6`!6ZA*&lt;=!7OY0T^0'S7,;!*5C*B-W#_^`T?DW&gt;DK7XXUE=.F\&lt;&amp;W9XW9@I=WJ@&amp;]7.M'&amp;\&lt;JT\D[XB5^?@]R@OGYVAF'%\0L`ZNGKF/ZF_]-:TX[_RW;\_V`^`N&amp;T&lt;[&lt;#ZWOP)GX45JF6214FH\&gt;5/3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XH&lt;S55O=J'T+MHES54*I-E!37=I3NY34_**0)G(LUI]C3@R**\%1R=FHM34?"*0YO%U*:\%EXA34_*BK#&lt;*NJ0D34Q-L]!4?!*0Y!E]4+H!%Q##S9+"AU&amp;A+'A-$A*0Y!E](#LQ"*\!%XA#$]U+0)%H]!3?Q--J&lt;67C;=;&gt;(!`$S0%Y(M@D?"Q01]PR/"\(YXA=$^0*]4A?"_&amp;-[!Q/1=Z*4A@HC_.R0(T)]4A?R_.Y(!^.\1JZ7ZF2-_\E?!S0Y4%]BM@Q-)1-D_%R0)&lt;(]$#M$)`B-4S'R`!QF1S0Y4%]"M39F/FF$';=;(1S!M0$K^UNVKZ3.)GVP@[;UYWKOA&amp;6.Z&lt;KBF(&gt;#+I,L,JQKAOC7GD6!KI72P7$64^%"62.L"J1V6%(XP&gt;54_WIDFJ4+WJ*T;H:?/J@\HAY(,4@\^8XP8;\H&lt;KOUXK^VGKVUH+ZV(Q_VWQW?XV;0&lt;"0W^XRO&lt;4B?*PR]OP4Y_@NV_\JZZ@(&lt;`XT^R^D@MW;HEP`QL.2(T3]?=ST2L]"\;"0/1!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -39,7 +39,7 @@ Instrument I/O Control&gt;&gt;
 	<Property Name="OdbcStringLoggingTableName" Type="Str">NI_VARIABLE_STRING</Property>
 	<Property Name="OdbcUsername" Type="Str"></Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
-	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
+	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Action-Status" Type="Folder">
