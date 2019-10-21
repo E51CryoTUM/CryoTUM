@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=windows-1252">
+  <meta content="Edwards TIC Drivers for LabVIEW" name="GENERATOR">
+</head>
+<body>
+
+Version 2.00<br>
+April 2014<br>
+
+<h4>Table of Contents:</h4>
+<dir>
+<pre>
+<a href="#section_1">1. Overview</a>
+<a href="#section_2">2. Required Software</a>
+<a href="#section_3">3. Installation Instructions</a>
+<a href="#section_4">4. Accessing the Driver in LabVIEW</a>
+<a href="#section_5">5. Using the Instrument Driver</a>
+<a href="#section_6">6. Custom Error Codes</a>
+<a href="#section_7">7. Unsupported Features</a>
+<a href="#section_8">8. Known Issues</a>
+<a href="#section_9">9. Customer Support</a>
+<a href="#section_10">10. Revision History</a>
+</pre>
+</dir>
+
+<h4><a name="section_1"></a>1. Overview</h4>
+<pre>
+Instrument Driver Technology:	Plug and Play
+Supported Language(s):		LabVIEW  8.2 Or Newer
+Supported Models:		Edwards IC, TC100, TC200, TIC100, TIC200, IC6 and IC6_CM
+Models Tested:			TIC200 / IC6_CM
+Interfaces:			Serial
+Firmware Revision Tested:	D39700640N / D39700640R
+Certified:			No
+NI Supported:			No
+Source Code Available:		Yes
+Driver Revision:		2.00
+Original Release Date:		May 2005
+Current Revision Date:		April 2014
+</pre>
+
+<h4><a name="section_2"></a>2. Required Software</h4>
+<pre>
+Some software components need to be installed before using this instrument driver.
+The minimum versions of these components are listed below, and can be downloaded
+from the NI download Web site.
+
+	VISA Runtime  
+</pre>
+
+<h4><a name="section_3"></a>3. Installation Instructions</h4>
+<pre>
+A)  Copy the "BOC Edwards TIC" folder, and all of it's contents, from this zip file
+    to the folder ...\Program Files \National Instruments \LabVIEW...\instr.lib
+
+B)  You will now have a "...\instr.lib\BOC Edwards TIC\" folder containing:
+
+	"Turbo Instrument Controller.llb"
+	"advanced_gauge_functions.mnu"
+	"analogue_out_functions.mnu"
+	"backing_functions.mnu"
+	"cooler_functions.mnu"
+	"dir.mnu"
+	"display_functions.mnu"
+	"examples.mnu"
+	"gauge_functions.mnu"
+	"heater_functions.mnu"
+	"relay_functions.mnu"
+	"tic_advanced_functions.mnu"
+	"Turbo_functions.mnu"
+	"vent_functions.mnu"
+
+C)  Restart LabVIEW.
+
+The menu files and VI library (LLB) make up an instrument driver. The menu files
+allow you to view the instrument driver VIs from the Functions palette.
+The VI library contains the instrument driver VIs.&nbsp;
+</pre>
+
+<h4><a name="section_4"></a>4. Accessing the Driver in LabVIEW</h4>
+<pre>
+There is normally no need to view the library file because the driver functions
+may be picked from a palette menu.
+
+A)  Right-click on a blank place on the VI diagram to open the "Functions" palette.  
+
+    Navigate: Functions -&gt; Instrument I/O -&gt; Instrument Drivers -&gt; BOC Edwards TIC
+
+B)  Alternately,  click diagram's menu bar:  Window -&gt; "Show Functions Palette" and
+    navigate the above menus&nbsp;
+</pre>
+
+<h4><a name="section_5"></a>5. Using the Instrument Driver</h4>
+<pre>
+To verify communication with your instrument and test a typical programmatic instrument
+operation, you should first open the Getting Started or Example VIs the instrument driver.
+Look over each of the controls and set them appropriately. Generally, the defaults for most
+controls will be sufficient for your first run. You will need to set the instrument resource
+name appropriately. After running the VI, check to see that data was returned and
+that an error was not reported in the error cluster.
+
+After you have verified basic communication with your instrument, you might want to customize
+instrument control for your needs. If your application needs are similar to the Getting Started
+or Example VI, the simplest means of creating a customized VI is to save a copy of the Getting
+Started or Example VI by selecting "Save As" from the File menu. You can then modify this
+example to meet your specific needs. For more details, reference the LabVIEW Help under
+Help » VI, Function, &amp; How-To Help.&nbsp;
+</pre>
+
+<h4><a name="section_6"></a>6. Custom Error Codes</h4>
+<pre>
+Every driver VI checks for errors and any found are returned in the "error out" cluster.
+There are three sources of errors and only the highest priority error is returned:
+
+<b>ERROR TYPES</b>
+</pre>
+<table border="1" cellpadding="0" cellspacing="0" width="670">
+  <tbody>
+    <tr>
+      <td valign="top" width="15%">
+      <b>Priority</b>
+      </td>
+      <td valign="top" width="22%"><b>
+      Type
+      </b></td>
+      <td valign="top" width="63%"><b>
+      Description
+      </b></td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%">
+      <pre>Highest</pre>
+      </td>
+      <td valign="top" width="22%">
+      <pre>VISA Error</pre>
+      </td>
+      <td valign="top" width="63%">
+      <pre>Returned by VISA functions such as Write or Read</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>Response Error</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>Driver received response but it is invalid</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%">
+      <p>&nbsp;Lowest</p>
+      </td>
+      <td valign="top" width="22%">
+      <pre>Device Error</pre>
+      </td>
+      <td valign="top" width="63%">
+      <pre>Error code Returned by the TIC controller.<br>See "CUSTOM DEVICE ERRORS" table below</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><br><b>CUSTOM DEVICE ERRORS</b></pre>
+<table border="1" cellpadding="0" cellspacing="0" width="670">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><b>Error Code</b>
+      </td>
+      <td style="vertical-align: top;"><b>Meaning</b>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6200</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Invalid response from controller</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6201</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Object ID Invalid</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6202</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Invalid serial command or query</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6203</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Argument missing from serial command string</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6204</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Argument out of range in command string</pre>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="18%">
+      <pre>6205</pre>
+      </td>
+      <td valign="top" width="65%">
+      <pre>Command not allowed in current mode or state</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>6206</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>Checksum Error</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>6207</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>EEPROM read or write error</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>6208</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>Operation took to long</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>6209</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>Invalid config ID</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<pre>
+For a detailed explanation of these error codes, please refer to the TIC serial communications
+manual (D397-30-880), which can be found on the TIC manual CD-ROM.
+</pre>
+
+<h4><a name="section_7"></a>7. Unsupported Features</h4>
+<pre>The following TIC capabilities are not supported by this driver:
+	- Multi-drop Addressing, for accessing multiple TIC's on an RS458 Bus.
+	- TIC Config Uploading/Downloading.
+</pre>
+
+<h4><a name="section_8"></a>8. Known Issues</h4>
+<pre>There are currently no known issues with this instrument driver.
+</pre>
+
+<h4><a name="section_9"></a>9. Customer Support</h4>
+<pre>For general TIC customer support please go to: <a href="http://www.upgrades.edwardsvacuum.com/">www.upgrades.edwardsvacuum.com</a>
+
+This driver is offered on an "as is" basis and is not supported by either Edwards
+or National Instruments. However, your feedback and comments are always appreciated and
+these can be sent to <a href="mailto:gerard.johns@edwardsvacuum.com">gerard.johns@edwardsvacuum.com</a>
+</pre>
+
+<h4><a name="section_10"></a>10. Revision History</h4>
+<pre>1.00 - Original Release
+
+2.00 - Support added for 6 Gauge TIC models, Capacitance Manometer configuration
+       and for newer nEXT/nXDS series pumps.<br><br></pre>
+</body>
+</html>

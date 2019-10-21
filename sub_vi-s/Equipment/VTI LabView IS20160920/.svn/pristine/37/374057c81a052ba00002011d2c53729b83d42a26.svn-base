@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Project Type="Project" LVVersion="13008000">
+	<Item Name="My Computer" Type="My Computer">
+		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="server.tcp.port" Type="Int">0</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="devices" Type="Folder">
+			<Item Name="gaussmeter" Type="Folder">
+				<Item Name="gaussmeter channels.ctl" Type="VI" URL="../devices/gaussmeter/gaussmeter channels.ctl"/>
+				<Item Name="gaussmeter read channel.vi" Type="VI" URL="../devices/gaussmeter/gaussmeter read channel.vi"/>
+				<Item Name="gaussmeter read values.vi" Type="VI" URL="../devices/gaussmeter/gaussmeter read values.vi"/>
+			</Item>
+			<Item Name="magnet" Type="Folder">
+				<Item Name="ips120" Type="Folder">
+					<Item Name="private" Type="Folder">
+						<Item Name="ips120 examine status.vi" Type="VI" URL="../devices/magnet/ips120/private/ips120 examine status.vi"/>
+						<Item Name="ips120 query decimal.vi" Type="VI" URL="../devices/magnet/ips120/ips120 query decimal.vi"/>
+						<Item Name="ips120 query.vi" Type="VI" URL="../devices/magnet/ips120/private/ips120 query.vi"/>
+						<Item Name="ips120 set activity.vi" Type="VI" URL="../devices/magnet/ips120/private/ips120 set activity.vi"/>
+						<Item Name="ips120 set target field.vi" Type="VI" URL="../devices/magnet/ips120/private/ips120 set target field.vi"/>
+						<Item Name="ips120 switch heater.vi" Type="VI" URL="../devices/magnet/ips120/private/ips120 switch heater.vi"/>
+					</Item>
+					<Item Name="ips120 get current field.vi" Type="VI" URL="../devices/magnet/ips120/ips120 get current field.vi"/>
+					<Item Name="ips120 get target field.vi" Type="VI" URL="../devices/magnet/ips120/ips120 get target field.vi"/>
+					<Item Name="ips120 ramp to field.vi" Type="VI" URL="../devices/magnet/ips120/ips120 ramp to field.vi"/>
+					<Item Name="ips120 set field sweep rate.vi" Type="VI" URL="../devices/magnet/ips120/ips120 set field sweep rate.vi"/>
+				</Item>
+				<Item Name="magnet ramp to field.vi" Type="VI" URL="../devices/magnet/magnet ramp to field.vi"/>
+			</Item>
+			<Item Name="motor" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="private" Type="Folder">
+					<Item Name="motor constants.ctl" Type="VI" URL="../devices/motor/private/motor constants.ctl"/>
+					<Item Name="motor enable.vi" Type="VI" URL="../devices/motor/private/motor enable.vi"/>
+					<Item Name="motor query switch.vi" Type="VI" URL="../devices/motor/private/motor query switch.vi"/>
+					<Item Name="motor set direction.vi" Type="VI" URL="../devices/motor/private/motor set direction.vi"/>
+					<Item Name="motor global state.vi" Type="VI" URL="../devices/motor/private/motor global state.vi"/>
+					<Item Name="motor global state control.ctl" Type="VI" URL="../devices/motor/private/motor global state control.ctl"/>
+					<Item Name="motor init connection.vi" Type="VI" URL="../devices/motor/private/motor init connection.vi"/>
+					<Item Name="motor step.vi" Type="VI" URL="../devices/motor/private/motor step.vi"/>
+					<Item Name="motor goto reference.vi" Type="VI" URL="../devices/motor/private/motor goto reference.vi"/>
+					<Item Name="motor directions.ctl" Type="VI" URL="../devices/motor/private/motor directions.ctl"/>
+					<Item Name="motor global state actions.ctl" Type="VI" URL="../devices/motor/private/motor global state actions.ctl"/>
+				</Item>
+				<Item Name="motor initialize.vi" Type="VI" URL="../devices/motor/motor initialize.vi"/>
+				<Item Name="motor set angle.vi" Type="VI" URL="../devices/motor/motor set angle.vi"/>
+				<Item Name="motor goto relative angle.vi" Type="VI" URL="../devices/motor/motor goto relative angle.vi"/>
+			</Item>
+		</Item>
+		<Item Name="measconfig" Type="Folder">
+			<Item Name="measurement definition cluster.ctl" Type="VI" URL="../measconfig/measurement definition cluster.ctl"/>
+		</Item>
+		<Item Name="config.vi" Type="VI" URL="../config.vi"/>
+		<Item Name="maximize field component.vi" Type="VI" URL="../maximize field component.vi"/>
+		<Item Name="vector magnet field.ctl" Type="VI" URL="../vector magnet field.ctl"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="LJUD_eDI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_eDI.vi"/>
+				<Item Name="LJUD_eDO.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_eDO.vi"/>
+				<Item Name="LJUD_OpenLabJackS.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_OpenLabJackS.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+			</Item>
+			<Item Name="fgv actions.ctl" Type="VI" URL="../fgv actions.ctl"/>
+			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
+	</Item>
+</Project>

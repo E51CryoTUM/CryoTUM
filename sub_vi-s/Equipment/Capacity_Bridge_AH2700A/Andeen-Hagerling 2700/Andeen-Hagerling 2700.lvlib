@@ -1,13 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="18008000">
+<Library LVVersion="19008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 
 Andeen-Hagerling AH 2700A precision multi-frequency capacitance bridge.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*"!!!*Q(C=\&gt;3^41."%)&lt;B$U2![A[17ZC!"NS#+U#;!()O)#&amp;U#R/4(35Y)3'&lt;%%+8A&amp;MQ\[Y(SUA74E!#C6OP/8`\^^T?=6)`TK5T&lt;9Y&gt;4V]?L6XNQV=`5@_VK\3X3"_&gt;0B5;7HO&gt;\A&lt;NF`XROT5/D$_U&gt;IU`YN?8RX`\@`P@&lt;D^SU/@_;+=@0K34,K5G.;B/N8ZVGS20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]F\)23ZSE&lt;-LS?,*1MGES12*:SB+PB*0YEE]C9?@3DS**`%EHM2$&amp;S7?R*.Y%E`C9:A34_**0)EH]4"6FW1PZ(A3$^-L]!3?Q".Y!A^,+P!%A'#R9/*A%BA+'I/4Q".Y!A_H#DS"*`!%HM"$MQ*0Y!E]A3@Q-+4P3H2.+_2YG%;/R`%Y(M@D?*B;DM@R/"\(YXB94I\(]4A):U&amp;H=ABS"DE&gt;H"_/R`(Q2Y\(]4A?R_.Y;/JXS0P/.%ULZ(A-D_%R0)&lt;(]$#&amp;$)`B-4S'R`!QL1S0Y4%]BM@QM*1-D_%R0!&lt;%7*4F:5RG$$1['9(BY&gt;/@&amp;ONX+&lt;L%?KF`T?W$KHI!61_7[I&amp;201CK'[S[=;I&lt;INJIV1;K.E:VQ;I,51&amp;6#[MG6(85GO]6&gt;5E&gt;K1PK1*V4:^1J&gt;&gt;+'@H0(^8KNV7KFZ8+J=2SV7#QU$)0G]\FGMZGGU[EGE]HO&lt;86"W2YH___FN^P,Y@F[@(CZ'R_@B_O(V[PBJO8X^0OJOHUP`9:XIU[VW8P.MU@P;Y^U/!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*"!!!*Q(C=\&gt;3^41."%)&lt;B$U2![A[17ZC!"NS#+U#;!()O)#&amp;U#R/4(35Y)3'&lt;%%+8A&amp;MQ\[Y(SUA74E!#C6OP/8`\^^T?=6)`TK5T&lt;9Y&gt;4V]?L6XNQV=`5@_VK\3X3"_&gt;0B5;7HO&gt;\A&lt;NF`XROT5/D$_U&gt;IU`YN?8RX`\@`P@&lt;D^SU/@_;+=@0K34,K5G.;B/N8ZVGS20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]F\)23ZSE&lt;-LS?,*1MGES12*:SB+PB*0YEE]C9?@3DS**`%EHM2$&amp;S7?R*.Y%E`C9:A34_**0)EH]4"6FW1PZ(A3$^-L]!3?Q".Y!A^,+P!%A'#R9/*A%BA+'I/4Q".Y!A_H#DS"*`!%HM"$MQ*0Y!E]A3@Q-+4P3H2.+_2YG%;/R`%Y(M@D?*B;DM@R/"\(YXB94I\(]4A):U&amp;H=ABS"DE&gt;H"_/R`(Q2Y\(]4A?R_.Y;/JXS0P/.%ULZ(A-D_%R0)&lt;(]$#&amp;$)`B-4S'R`!QL1S0Y4%]BM@QM*1-D_%R0!&lt;%7*4F:5RG$$1['9(BY&gt;/@&amp;ONX+&lt;L%?KF`T?W$KHI!61_7[I&amp;201CK'[S[=;I&lt;INJIV1;K.E:VQ;I,51&amp;6#[MG6(85GO]6&gt;5E&gt;K1PK1*V4:^1J&gt;&gt;+'@H0(^8KNV7KFZ8+J=2SV7#QU$)0G]\FGMZGGU[EGE]HO&lt;86"W2YH___FN^P,Y@F[@(CZ'R_@B_O(V[PBJO8X^0OJOHUP`9:XIU[VW8P.MU@P;Y^U/!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">

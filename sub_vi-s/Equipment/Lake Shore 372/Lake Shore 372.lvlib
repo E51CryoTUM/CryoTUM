@@ -45,58 +45,58 @@ Instrument I/O Control&gt;&gt;
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="AutoScan.vi" Type="VI" URL="../Public/Action-Status/AutoScan.vi"/>
-			<Item Name="Delete Curve.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Delete Curve.vi"/>
-			<Item Name="Get Input Sensor Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Get Input Sensor Range.vi"/>
-			<Item Name="Get Setpoint.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Get Setpoint.vi"/>
-			<Item Name="Query Alarm Condition.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Query Alarm Condition.vi"/>
-			<Item Name="Query Heater Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Query Heater Status.vi"/>
-			<Item Name="Query Scan Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Query Scan Status.vi"/>
-			<Item Name="Reset Alarms.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Reset Alarms.vi"/>
-			<Item Name="Reset Max-Min.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Action-Status/Reset Max-Min.vi"/>
+			<Item Name="Delete Curve.vi" Type="VI" URL="../Public/Action-Status/Delete Curve.vi"/>
+			<Item Name="Get Input Sensor Range.vi" Type="VI" URL="../Public/Action-Status/Get Input Sensor Range.vi"/>
+			<Item Name="Get Setpoint.vi" Type="VI" URL="../Public/Action-Status/Get Setpoint.vi"/>
+			<Item Name="Query Alarm Condition.vi" Type="VI" URL="../Public/Action-Status/Query Alarm Condition.vi"/>
+			<Item Name="Query Heater Status.vi" Type="VI" URL="../Public/Action-Status/Query Heater Status.vi"/>
+			<Item Name="Query Scan Status.vi" Type="VI" URL="../Public/Action-Status/Query Scan Status.vi"/>
+			<Item Name="Reset Alarms.vi" Type="VI" URL="../Public/Action-Status/Reset Alarms.vi"/>
+			<Item Name="Reset Max-Min.vi" Type="VI" URL="../Public/Action-Status/Reset Max-Min.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure.mnu"/>
-			<Item Name="Configure Alarm.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Alarm.vi"/>
-			<Item Name="Configure Analog Still Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Analog Still Output.vi"/>
+			<Item Name="Configure Alarm.vi" Type="VI" URL="../Public/Configure/Configure Alarm.vi"/>
+			<Item Name="Configure Analog Still Output.vi" Type="VI" URL="../Public/Configure/Configure Analog Still Output.vi"/>
 			<Item Name="Configure Control Mode.vi" Type="VI" URL="../Public/Configure/Configure Control Mode.vi"/>
 			<Item Name="Configure Control Parameters.vi" Type="VI" URL="../Public/Configure/Configure Control Parameters.vi"/>
-			<Item Name="Configure Curve Header.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Curve Header.vi"/>
-			<Item Name="Configure Curve Point.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Curve Point.vi"/>
+			<Item Name="Configure Curve Header.vi" Type="VI" URL="../Public/Configure/Configure Curve Header.vi"/>
+			<Item Name="Configure Curve Point.vi" Type="VI" URL="../Public/Configure/Configure Curve Point.vi"/>
 			<Item Name="Configure Digital Output.vi" Type="VI" URL="../Public/Configure/Configure Digital Output.vi"/>
-			<Item Name="Configure Heater.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Heater.vi"/>
+			<Item Name="Configure Heater.vi" Type="VI" URL="../Public/Configure/Configure Heater.vi"/>
 			<Item Name="Configure Input Sensor Range.vi" Type="VI" URL="../Public/Configure/Configure Input Sensor Range.vi"/>
 			<Item Name="Configure Input Settings.vi" Type="VI" URL="../Public/Configure/Configure Input Settings.vi"/>
 			<Item Name="Configure Instrument.vi" Type="VI" URL="../Public/Configure/Configure Instrument.vi"/>
 			<Item Name="Configure Ramp.vi" Type="VI" URL="../Public/Configure/Configure Ramp.vi"/>
 			<Item Name="Configure Relays.vi" Type="VI" URL="../Public/Configure/Configure Relays.vi"/>
 			<Item Name="Configure Setpoint.vi" Type="VI" URL="../Public/Configure/Configure Setpoint.vi"/>
-			<Item Name="Configure Zone.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Configure/Configure Zone.vi"/>
+			<Item Name="Configure Zone.vi" Type="VI" URL="../Public/Configure/Configure Zone.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Data/Data.mnu"/>
-			<Item Name="Read Analog Output Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Data/Read Analog Output Data.vi"/>
-			<Item Name="Read Heater Output Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Data/Read Heater Output Data.vi"/>
-			<Item Name="Read Min Max Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Data/Read Min Max Data.vi"/>
+			<Item Name="Read Analog Output Data.vi" Type="VI" URL="../Public/Data/Read Analog Output Data.vi"/>
+			<Item Name="Read Heater Output Data.vi" Type="VI" URL="../Public/Data/Read Heater Output Data.vi"/>
+			<Item Name="Read Min Max Data.vi" Type="VI" URL="../Public/Data/Read Min Max Data.vi"/>
 			<Item Name="Read Sensor Data.vi" Type="VI" URL="../Public/Data/Read Sensor Data.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Reset.vi"/>
-			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Revision Query.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Self-Test.vi"/>
-			<Item Name="Configure Display.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Configure Display.vi"/>
-			<Item Name="Configure User Interface.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Utility/Configure User Interface.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
+			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
+			<Item Name="Configure Display.vi" Type="VI" URL="../Public/Utility/Configure Display.vi"/>
+			<Item Name="Configure User Interface.vi" Type="VI" URL="../Public/Utility/Configure User Interface.vi"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Close.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/dir.mnu"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/Initialize.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Public/VI Tree.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Decode Error.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Private/Decode Error.vi"/>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 372/Private/Default Instrument Setup.vi"/>
+		<Item Name="Decode Error.vi" Type="VI" URL="../Private/Decode Error.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 		<Item Name="InputChannelToString.vi" Type="VI" URL="../Private/InputChannelToString.vi"/>
 		<Item Name="Serial Write.vi" Type="VI" URL="../Private/Serial Write.vi"/>
 	</Item>
