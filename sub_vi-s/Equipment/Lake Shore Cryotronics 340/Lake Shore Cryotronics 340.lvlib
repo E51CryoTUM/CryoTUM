@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="16008000">
+<Library LVVersion="19008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This driver configures the Lake Shore Cryotronics 340 temperature controller.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\:1^&lt;BN"$%9`"SZ32F6;1V@A&amp;81&amp;89(.(E#N3]'&amp;8@-+;H1!89&amp;V/D7J5A4L,KX]:J;7:=31'BN)!-_)_`/21\[&gt;'9X5WV@J7I&gt;,&lt;4D&lt;GF`=7\\DJ&lt;X8`?A@JEM^N\B"@YU@JK@BO&lt;`YJZ40Y`6[`%HJN_K@Z^@:^OH`^0`@`AO.G.O,12`=J+N/CC57G'07P_[1[)G?[)G?[)E?[)%?[)%?[)(O[)\O[)\O[)ZO[):O[):O[)&lt;?/\L1B3ZU:C5JHB2+EC9*EG"1F&amp;Q3HI1HY5FY?&amp;8#E`!E0!F0QE/)%J[%*_&amp;*?")?BCHB38A3HI1HY3&amp;6*]H?U?&amp;*?%CPA#@A#8A#HI#(EAJY!I#A7*!Y3!+'!G@Q%0!%0!%0DQJY!J[!*_!*?(!LY!FY!J[!*_"B3*_6[$3NI].$'DE]$I`$Y`!Y0+37Q_0Q/$Q/D].$/4E]$I]$Y22UEI-A:Z!4Y,QY0!Y0.TE]$I`$Y`!Y0,D[#HG@G5&lt;4/DI]"I`"9`!90!90+74Q'$Q'D]&amp;D]*"7"I`"9`!90!90J74Q'$Q'DQ&amp;C&amp;+7]D'4'1#0)%!Q?@HWX7&amp;_F[#47?`UVJYWKWI#KD;8;-+K.I&amp;JAV=+J&amp;E1VU;I*6%W-[I.6([)#6"67*61&amp;;O3[RX&lt;9"FND+WS*,&lt;!Z.GN$XTFQ(%@N^XPN&gt;DNN.BONVWON6CMNFUMN&amp;AP.ZX0.:L0D;86$H^L6[&lt;EU@LN`'0`]XI\@\\;00XZN@`,?^&amp;PC0MKG=_F@/"PV29?49ZYZ?A)N@%68!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\:1^&lt;BN"$%9`"SZ32F6;1V@A&amp;81&amp;89(.(E#N3]'&amp;8@-+;H1!89&amp;V/D7J5A4L,KX]:J;7:=31'BN)!-_)_`/21\[&gt;'9X5WV@J7I&gt;,&lt;4D&lt;GF`=7\\DJ&lt;X8`?A@JEM^N\B"@YU@JK@BO&lt;`YJZ40Y`6[`%HJN_K@Z^@:^OH`^0`@`AO.G.O,12`=J+N/CC57G'07P_[1[)G?[)G?[)E?[)%?[)%?[)(O[)\O[)\O[)ZO[):O[):O[)&lt;?/\L1B3ZU:C5JHB2+EC9*EG"1F&amp;Q3HI1HY5FY?&amp;8#E`!E0!F0QE/)%J[%*_&amp;*?")?BCHB38A3HI1HY3&amp;6*]H?U?&amp;*?%CPA#@A#8A#HI#(EAJY!I#A7*!Y3!+'!G@Q%0!%0!%0DQJY!J[!*_!*?(!LY!FY!J[!*_"B3*_6[$3NI].$'DE]$I`$Y`!Y0+37Q_0Q/$Q/D].$/4E]$I]$Y22UEI-A:Z!4Y,QY0!Y0.TE]$I`$Y`!Y0,D[#HG@G5&lt;4/DI]"I`"9`!90!90+74Q'$Q'D]&amp;D]*"7"I`"9`!90!90J74Q'$Q'DQ&amp;C&amp;+7]D'4'1#0)%!Q?@HWX7&amp;_F[#47?`UVJYWKWI#KD;8;-+K.I&amp;JAV=+J&amp;E1VU;I*6%W-[I.6([)#6"67*61&amp;;O3[RX&lt;9"FND+WS*,&lt;!Z.GN$XTFQ(%@N^XPN&gt;DNN.BONVWON6CMNFUMN&amp;AP.ZX0.:L0D;86$H^L6[&lt;EU@LN`'0`]XI\@\\;00XZN@`,?^&amp;PC0MKG=_F@/"PV29?49ZYZ?A)N@%68!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">2.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
