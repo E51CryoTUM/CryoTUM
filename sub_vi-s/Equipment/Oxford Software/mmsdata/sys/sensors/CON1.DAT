@@ -1,0 +1,17 @@
+;*********** LINEAR CONDUCTANCE *********
+;This is dummy data for a conductance
+;range from 0-19.999 millisiemens.
+;Used for ITC502 Range Con1
+13:54:27      06-17-1993
+Conductance
+T, R
+K, -
+
+
+ .001          .001 
+ .002          .002 
+ 1             1 
+ 2             2 
+ 5             5 
+ 10            10 
+ 20            20 

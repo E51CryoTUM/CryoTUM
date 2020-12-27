@@ -1,0 +1,8 @@
+[fieldsweep01]
+SweepParam=Field
+SweepStart=0.1
+SweepStop=1.0
+SweepIncrement=0.1
+Temperature=56.5
+InitialField={"magnitude":1,"phi":2,"theta":3}
+RefField={"magnitude":4,"phi":5,"theta":6}

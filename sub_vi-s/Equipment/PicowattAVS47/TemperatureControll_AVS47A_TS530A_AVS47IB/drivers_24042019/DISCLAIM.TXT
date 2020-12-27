@@ -1,0 +1,14 @@
+DISCLAIMER
+==========
+
+RV-Elektroniikka Oy Picowatt makes no representations or warranties with 
+respect to the contents or operation of the Virtual Instruments (VI's) 
+included in this Instrument Driver, and specifically disclaims any implied 
+warranties of fitness for any particular purpose. 
+    Picowatt shall under no circumstances be liable for incidental or 
+consequental damages or related expenses resulting from the use of this 
+driver, even if it has been notified of the possibility of such damages. 
+   Picowatt reserves the right to revise this driver from time to time 
+without obligation to notify any person or institution of such revisions, 
+and without obligation to maintain any degree of compatibility between the 
+revisions. 

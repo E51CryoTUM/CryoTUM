@@ -1,0 +1,9 @@
+[VNA]
+FreqStart=10e6
+FreqStop=26.5e9
+Power=0
+IFBandwidth=2000
+Points=8000
+SX1=True
+SX2=True
+Calibration=IS_03022015_CS18
