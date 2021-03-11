@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PpmsExternal - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/PpmsExternal.res" /d "_DEBUG" /d "_AFXDLL" "E:\Project\PpmsSamp\PpmsExternal.rc"" 
+Creating temporary file "C:\TEMP\RSP220.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PpmsExternal.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\PpmsSamp\PpmsExternal.cpp"
+"E:\Project\PpmsSamp\PpmsExternalDlg.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP220.tmp" 
+Creating temporary file "C:\TEMP\RSP221.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PpmsExternal.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\PpmsSamp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP221.tmp" 
+Creating temporary file "C:\TEMP\RSP222.tmp" with contents
+[
+ppmscomm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PpmsExternal.pdb" /debug /machine:I386 /out:"Debug/PpmsExternal.exe" /pdbtype:sept 
+.\Debug\PpmsExternal.obj
+.\Debug\PpmsExternalDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\PpmsExternal.res
+]
+Creating command line "link.exe @C:\TEMP\RSP222.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PpmsExternal.cpp
+PpmsExternalDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PpmsExternal.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

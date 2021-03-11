@@ -1,0 +1,10 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NVc	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+##
+##Transport measurement Test mit SR830 FeCoSi x=0.5
+#From -200mT to 200mT
+1	02.0	01.00	02.0	01.00	-2000.0	10.5	2000.0	10.5	0	0	0	01	0.0	0	0.0000	0.0000	0.0000	0.0000	0.005	22.08	0.0000
+#From 200mT to -200mT
+1	02.0	01.00	02.0	01.00	2000.0	10.5	-2000.0	10.5	0	0	0	01	0.0	0	0.0000	0.0000	0.0000	0.0000	0.005	22.08	0.0000
+#
+# END
+0

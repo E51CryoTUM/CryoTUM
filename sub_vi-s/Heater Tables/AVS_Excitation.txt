@@ -1,0 +1,6 @@
+# AVS Excitation Table
+# Temperature (mK)	 Excitation	
+100	3
+600	4
+2000	5
+6000	6

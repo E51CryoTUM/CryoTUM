@@ -1,0 +1,9 @@
+[fieldsweep01]
+SweepParam=Field
+SweepStart=0.1
+RefAngle=10
+SweepStop=1.0
+SweepIncrement=0.1
+Temperature=56.5
+Angle=90
+RefField=1

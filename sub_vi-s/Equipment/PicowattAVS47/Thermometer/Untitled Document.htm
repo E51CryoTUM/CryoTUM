@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!--DWLayoutTable-->
+  <tbody><tr> 
+    <td height="82" valign="top" width="100%"><h1 align="center">Physics 646</h1>
+      <h2 align="center">Instrumentation/LabView for Scientists</h2></td>
+  </tr>
+  <tr> 
+    <td height="38" valign="top"><h3 align="center"><a href="http://www.physics.udel.edu/%7Enowak/phys646/index.html">Home</a>&nbsp;&nbsp;&nbsp;<a href="http://www.physics.udel.edu/%7Enowak/phys646/course_information.html">Course 
+        Information</a>&nbsp;&nbsp;&nbsp;<a href="http://www.physics.udel.edu/%7Enowak/phys646/resources.html">Resources</a> 
+        &nbsp;&nbsp;<a href="http://www.physics.udel.edu/">UDPhysics</a><br>
+      </h3>
+      </td>
+  </tr>
+  <tr> 
+    <td height="290" valign="top"><!-- InstanceBeginEditable name="Content" -->
+   <meta name="Author" content="David Daughton">
+   
+
+
+<center>
+  <h1> Resistance Thermometry using GPIB Instruments</h1>
+</center>
+
+<h3>
+<u>INTRODUCTION</u></h3>
+<p>Although the data acquisition board that you have been using is a powerful 
+  and versatile platform for measuring and generating electrical signals, sometimes 
+  it is necessary or just more practical to use a piece of equipment designed 
+  to perform a specific measurement. In such cases one often desires to transfer 
+  the data from the instrument to the computer either for processing or storage. 
+  The purpose of this lab is to gain some familiarity with controlling instruments 
+  using a popular instrument-to-computer interface, the General Purpose Interface 
+  Bus (or GPIB). The specialized measurement to be performed is resistance, which 
+  can be done directly using the Keithley 2000 multimeter but not with the 6024E 
+  DAQ board. The resistance that you will be measuring is that of a Resistance 
+  Temperature Device (RTD) which is mounted on a heater. The goal is to monitor 
+  the temperature of a heater as a function of time using a data acquisition VI. 
+  Before you start working on this lab, read the section "The GPIB VIs" in chapter 
+  11 of your text as a brief introduction to the GPIB interface. </p>
+<h3><b><u>EXPERIMENTAL SETUP</u></b></h3>
+<p>You will be using the model <a href="http://www.physics.udel.edu/%7Enowak/phys646/pdf/F3102_RTD.pdf">F3102</a> RTD from 
+  Omega. This RTD is made from a thin film of platinum metal that has a nominal 
+  resistance of 100 ohms at 0 deg C and ~ 110 Ohms at room temperature. Roughly 
+  speaking, the resistance of platinum increases linearly with temperature from 
+  30 K to 800 K; near room temperature the variation is approximately 0.385 Ohms 
+  per degree Kelvin. The RTDs you'll be using are encased in a thin, flat ceramic 
+  package that has a temperature rating of -50 up to 600 deg C (-60 to 1110 deg 
+  F). Two RTDs are mounted on your the experimental setup using thermally conducting 
+  adhesive; one is mounted on the heater (the gold-colored 10 Watt power resistor) 
+  and the other is mounted on the underside of the black heat sink. </p>
+<p>The file "<b><a href="http://www.physics.udel.edu/%7Enowak/phys646/F3102_rtd_cal.txt">F3102_rtd_cal.txt</a></b>" 
+  contains the calibration table used to convert the measured resistance values 
+  to temperatures. It consists of two tab-delimited columns. The first column 
+  contains resistance values and the second has the corresponding temperatures. 
+  There are 31 pairs of numbers spanning the temperature range from 0 to 300 deg 
+  C. To download the file right click on the link and use "<i><b>Save Target 
+  As . . .</b></i>" option to download the text file. Save the file in your 
+  work folder.</p>
+<p>The 2 position terminal connector block is used to provide power to the heater. 
+  Connect it to a variable 10V @ 1 Amp power supply. <font color="#FF0000"><b>WARNING: 
+  DO NOT DRIVE MORE THAN 1 AMP THROUGH THE HEATER.</b></font> The 8 position terminal 
+  block will be used to measure the resistance of the RTDs. One RTD is connected 
+  to the leftmost four positions, and the other RTD is connected to the rightmost 
+  four positions. Unfortunately, there are two versions of the experimental set-up 
+  that differ in the wiring configuration of this 8 position terminal block. Schematics 
+  of both layouts are shown below. They are distinguished by the numbering of 
+  the terminal positions.</p>
+<p><img src="Untitled%20Document-Dateien/terminal_block2.jpg" height="150" width="475"></p>
+<p> <img src="Untitled%20Document-Dateien/terminal_block1.jpg" height="150" width="475"></p>
+<h3><i>Two-lead versus four-lead</i></h3>
+<p>The measurement of resistance sensors requires a current to be passed through 
+  the RTD to produce a sensor voltage that can be measured.. The simplest resistance 
+  measurement configuration is a current source connected to the RTD with a voltmeter 
+  connect to the current leads as shown schematically in the figure below. The 
+  current source can be represented as an ideal current source (Is) in parallel 
+  with a shunt resistance, Rs. The voltmeter, normally a digital multimeter, can 
+  be modeled as an ideal voltmeter (Vin) in parallel with an input impedance, 
+  Rin.</p>
+<p><img src="Untitled%20Document-Dateien/two_lead.JPG" height="173" width="585"></p>
+<p>The dominant source of error in a two-lead resistance measurement is usually 
+  the resistance of the lead wires connecting the current source to the RTD. Since 
+  the leads to measure the voltage are also the current carrying leads, the resultant 
+  voltage measured is the sum of the RTD voltage (Vs) and the IsR_lead voltage 
+  drop in the leads. </p>
+<ul>
+  <li> Using the Keithley 2000 multimeter, measure the two-lead resistance between 
+    the I+ and I- leads of the heater RTD. What temperature does this two-lead 
+    resistance correspond to?</li>
+</ul>
+<p>In order to eliminate the effects of lead resistance, a four-lead measurement 
+  is normally used. Two of the leads, I+ and I-, supply current to the RTD, while 
+  the two other leads, V+ and V-, are used to eliminate the effect of lead resistance 
+  by measuring the voltage directly across the RTD leads. The reason this measurement 
+  scheme works is that the IR drop in the current leads is not measured and the 
+  voltage drop in the voltage leads is extremely small due to the very small current 
+  required by the voltmeter (picoamperes or less) to make the voltage measurement. 
+  This measurement configuration is illustrated below.</p>
+<p><img src="Untitled%20Document-Dateien/four_lead.jpg" height="203" width="615"></p>
+<ul>
+  <li>Configure the multimeter to make a four-lead resistance measurement and 
+    measure the resistance of the heater RTD again. Consult the multimeter manual 
+    for wiring instructions. What temperature does this four-lead resistance correspond 
+    to? Explain the difference in temperature readings.</li>
+</ul>
+<h3><i>GPIB and instrument drivers</i></h3>
+<p>Now that we have a precision method for measuring the resistance we are ready 
+  to take measurements and transfer the data to the computer using LabVIEW VIs. 
+  Initially you will completely rely on VIs that have been written by someone 
+  else, Instrument Drivers. You can manipulate the output of those VIs, numbers 
+  or arrays, without knowing anything about GPIB or the commands that have to 
+  be sent to the instrument to make it work. You may find this unsatisfactory, 
+  but it emphasizes one of the main messages of the lab course -- for most simple 
+  problems, LabVIEW has the solution already built in or it is somewhere ready 
+  to be downloaded. </p>
+<p>You will find that there is already a GPIB interface card inside your computer, 
+  and LabVIEW GPIB software has already been installed. However, the drivers for 
+  the individual instruments are not yet installed. You will need the driver for 
+  the Keithley 2000 multimeter. You can download this driver from the National 
+  Instruments web site. 
+</p><p>Use a web Browser to go to the National Instruments site&nbsp; <a href="http://zone.ni.com/idnet">http://zone.ni.com/idnet</a> . Select "downloads", 
+  and download the <i>Plug-and-play</i> drivers for the Keithley 2000 multimeter.&nbsp; 
+  Use the <b>C:\TEMP</b> directory for temporary storage. You will find that you 
+  now have obtained a compressed file. Clicking on it will launch the Winzip facility. 
+  Select "Extract" and make sure you unzip all files belonging to one driver simultaneously. 
+  The drivers are placed in separate folders for each instrument. Place these 
+  folders in the <b>C:\---\instr.lib</b> directory on your computer. 
+</p><h3> <i>Testing the connection</i></h3>
+Now that you have your drivers, you can connect your hardware, and install the 
+drivers. Connecting the hardware is just a matter of connecting IEEE cables between 
+your computer and the multimeter. You can use NIMAX to detect your instruments.&nbsp; 
+After installation you should find the driver as VI in the function pallet under 
+<b>Instrument I/O / Instrument Drivers</b>. If not, check that you have put your 
+drivers in the appropriate directory. To get familiar with the driver VI, try 
+to run it on its own first. For example, use <b>Keithley 2000 Single Read.vi.</b>. 
+<h3><u>WRITING YOUR OWN INSTRUMENT CONTROL VIs</u></h3>
+You may have noticed that typical instrument drivers are quite complicated VIs 
+having many options and performing a wide range of tasks. Often, after an instrument 
+is properly configured, you want to do only one thing and repeat this over and 
+over again. For example, if you want to monitor a resistance as a function of 
+time, it is sufficient to configure a multimeter as a resistance meter once, and 
+then periodically ask the multimeter for the current value. In the following you 
+are asked to write a few basic VIs to read and write to the Keithley multimeter. 
+<br>
+&nbsp; 
+<blockquote>A) Write a sub-VI that writes a command to an instrument on the GPIB 
+  bus, and reads back the response. Use the <b>GPIB write </b>and <b>GPIB read</b> 
+  VIs on the Function panel. Your VI should have as inputs (controls) the bus 
+  address of the instrument and the control string, and as output (indicator) 
+  the response string. Also give the sub-VI an error in and an error out terminal. 
+  Save this VI. 
+        <p>B) Write a sub-VI that reads the Keithley multimeter, using the previously 
+          developed write/read sub-VI. Use as command string READ? to get the 
+          Keithley to talk. Convert the response from a string to a number. This 
+          VI should have as input the bus address of the multimeter, and as output 
+          the multimeter reading. Of course it should also have an error in and 
+          an error out terminal. <br>
+    &nbsp; 
+  </p><p>C) Write a VI that, in combination with the Keithley multimeter, can be used 
+    to determine the four-lead resistance value of a RTD. To do this, have the 
+    VI first configure the Keithley as four-lead resistance meter and then read 
+    the resistance. <i><b>You will find information about the commands to configure 
+    the Keithley in section 5-3 of the user manual.</b></i> On first reading do 
+    not attempt to completely understand the information provided! 
+  </p><p>D) Once the resistance is translated into a numeric value in LabVIEW it can 
+    be converted to a temperature. In some instances, a RTD's calibration table 
+    can be fit using a polynomial so that the temperature, T, can be computed; 
+    for example T = a + bR + cR^2 + dR^3 + eR^4 + . . ., where a, b, c, d, and 
+    e are the coefficients and R is the measured resistance. An alternative conversion 
+    can be done using linear interpolation between {resistance, temperature} pairs 
+    of points. This method is illustrated below and uses a built-in linear interpolation 
+    VI. 
+  </p><p><img src="Untitled%20Document-Dateien/interpolation.jpg" height="571" width="594">
+  </p><p>Write a VI that will monitor the temperature of the heater as a function 
+    of time. The VI should configure the Keithley 2000 multimeter to measure the 
+    RTD's resistance using the four-lead method and convert the resistance to 
+    a temperature using linear interpolation. The data should be graphed and saved 
+    to a file in a manner similar to that in the previous lab (Simple Fluid Mechanics 
+    using Transducers).
+  </p><p>Explore answers to the following questions. Investigate how the temperature 
+    of the heater increases by applying approximately 0.5 Amps to the heater. 
+    <font color="#FF0000"><b>WARNING: DO NOT DRIVE MORE THAN 1 AMP THROUGH THE 
+    HEATER.</b></font> Do the heating and cooling curves look similar? Upon heating, 
+    how long does it take for the temperature to stabilize? What is the final 
+    temperature? How would you describe the mathematical form of the temperature 
+    dependence? What are two primary factors that set the time scale at which 
+    the heater reaches it final 'equilibrium' temperature? How is the final temperature 
+    and time dependence affected if thermally conductive paste is used to enhance 
+    heat conduction between the heater and the large metallic heat sink? <font color="#FF0000"><b>NOTE: 
+    WHEN HANDLING THE HEATER BE SURE NOT TO EXERT EXCESSIVE TORQUE ON THE BOLTS 
+    - THEY ARE EASILY STRIPPED! ALSO, THE HEATER CAN GET VERY HOT, BE CAREFUL 
+    NOT TO BURN YOURSELF.</b></font> 
+</p></blockquote>
+<h3><br>
+  &nbsp; </h3>
+<h3>&nbsp; </h3>
+<blockquote>&nbsp;</blockquote>
+
+<!-- InstanceEndEditable --></td>
+  </tr>
+  <tr> 
+    <td height="42" valign="top"><p><font size="-1">©2004 Edmund R. Nowak<br>
+        University of Delaware</font></p>
+      </td>
+  </tr>
+</tbody></table>
+
+
+</body><!-- InstanceEnd --></html>
