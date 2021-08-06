@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Mercury iXX.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Mercury iXX.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../mercury/Mercury iXX.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Library containing all system based and common commands for the Mercury instrument range.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">509efc5b-02e8-4491-9894-8afedc948b66</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>

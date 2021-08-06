@@ -102,7 +102,7 @@ http://www.zhinst.com</Property>
 			</Item>
 			<Item Name="ziLoadSettings.vi" Type="VI" URL="../Public/Utility/ziLoadSettings.vi"/>
 			<Item Name="ziSaveSettings.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Utility/ziSaveSettings.vi"/>
-			<Item Name="ziAutoRange.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Utility/ziAutoRange.vi"/>
+			<Item Name="ziAutoRange.vi" Type="VI" URL="../Public/Utility/ziAutoRange.vi"/>
 			<Item Name="ziCheckVersion.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Utility/ziCheckVersion.vi"/>
 			<Item Name="ziList.vi" Type="VI" URL="../Public/Utility/ziList.vi"/>
 			<Item Name="ziListDevices.vi" Type="VI" URL="../Public/Utility/ziListDevices.vi"/>

@@ -1,0 +1,18 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NV%	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+#
+# CoSi FLX1 (annealed) with TT-Trafo
+#
+# Sample thermometer has a bad contact; longitudinal voltage pick-ups also dont seem to work
+#
+# Measurements up to 20T with LPF
+#
+# Base Temp FS from 17.5 to 20T with 0.05T/min with, B in 111, Excitation I=0.25mA rms
+#1	00.00	00.05	00.00	00.05	17.5	0.05	20.0	0.05	23	26	26	1	00	0	000.00	000.00	97.00	97.00	0.00025	022.08	000.00
+#1	00.00	00.05	00.00	00.05	20.0	0.05	17.5	0.05	23	26	26	1	00	0	000.00	000.00	97.00	97.00	0.00025	022.08	000.00
+#
+# Base Temp FS from 17.5 to 20T to 0T with 0.05T/min with, B in 001, Excitation I=0.25mA rms
+1	00.00	00.05	00.00	00.05	17.5	0.05	20.0	0.05	22	26	26	1	00	0	000.00	000.00	42.30	42.30	0.00025	022.08	000.00
+1	00.00	00.05	00.00	00.05	20.0	0.05	0.0	0.05	22	26	26	1	00	0	000.00	000.00	42.30	42.30	0.00025	022.08	000.00
+#
+# End of command file
+0

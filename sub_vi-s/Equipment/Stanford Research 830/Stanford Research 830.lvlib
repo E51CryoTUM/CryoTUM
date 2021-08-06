@@ -50,18 +50,18 @@ For more information about this driver, please refer to Stanford Research 830 Re
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Utility/Utility.mnu"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Utility/Reset.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Utility/Revision Query.vi"/>
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/dir.mnu"/>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/VI Tree.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 		<Item Name="Query Standard Event Status.vi" Type="VI" URL="../Private/Query Standard Event Status.vi"/>
 		<Item Name="Query Error Status.vi" Type="VI" URL="../Private/Query Error Status.vi"/>
 		<Item Name="Query Lock In Amplifier Status.vi" Type="VI" URL="../Private/Query Lock In Amplifier Status.vi"/>

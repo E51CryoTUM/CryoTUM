@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Mercury iXX.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Mercury iXX.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../mercury/Mercury iXX.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Library containing control loop functions that can be applied to temperature daugther cards</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+_!!!*Q(C=T:3R=&gt;N!%%7`0![==&gt;C"BY%&lt;W":9ANG":Q-XQ&amp;1BZ5S"ARVXQ"&lt;9QK9/W1*$"!Q)PTM=)9CC2!@7D/_Y!0D`\N\$!1/JDE`32`7XROT.5@S3]FJ;^@P:KWW'_D*H`60WL*_=7P_HL00F7$&amp;)Z[NTD^&amp;`F&lt;VGXRCHLB-`YPGI/^BVJV0V,PVD(;C$@^UGI@IPSENF'==D@GV`7@[XPPI&lt;`BPVRRPV^8DKL`D4__OP&lt;N`I^`WV`3GD^G`_V@UPSR@`T?&gt;4`3M*GPAN1:&gt;O%;J`4BB3J#?\_5/VHI^OYF^[YWJH`U6#&gt;_%`TRD&amp;C4_ZKW\CXRDEX^^-?O=BX;F]C)AEAH$#6+Q_U2-^U2-^U2-^U!-^U!-^U!0&gt;U2X&gt;U2X&gt;U2X&gt;U!X&gt;U!X&gt;U!W^4H3B#VXI\%KS?,*1UD2JE#3$IO31]#1]#5`#QV]F0!F0QJ0Q*$SE+/&amp;*?"+?B#@BI5Q*4]+4]#1]#1_N+EH7C1Z0QE.\"4Q"4]!4]!1],+G!*Q!)&amp;AM;"UX!5'!'&amp;Q&amp;0Q"0Q=+G!*_!*?!+?A!&gt;&lt;!5`!%`!%0!%0*868IN+5C1Y0&lt;?4Q/$Q/D]0D].";$I`$Y`!Y0!Y0S]HB=8A=#'&gt;"JTE)=IK="/?0Q_0Q=*,$Y`!Y0![0QY.6HZ$8H3EU:;,$9`!90!;0Q70QU%)'D]&amp;D]"A]"A^N:@!90!;0Q70QM*1-(I0(Y$&amp;!D%6:8E9TI^")-A3$BV^^7[Q_J;AE6K@58F[VFV,N:6.\C&gt;2?$L7(LP9QV2[3WO;L&lt;;L;:KFNANL.K5'LQ;ANIF:=%H8AO#&gt;WR*&lt;9%'NC23S*"4%PJ@]Y]8!Y;,`@;\@&lt;;&lt;P&gt;;L0:;,V?;\6;;&lt;F=;L&amp;9;$[@DZ_VT]RBX*W`3`&gt;=0R+`C*^@PP^_`0LDY@'&lt;0[$0T`Z\R0"&gt;_B__D@KAY4TOU2_?7PS8!!!!!!</Property>
