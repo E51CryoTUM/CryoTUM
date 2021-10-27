@@ -1,0 +1,69 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NV%	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+#
+# CoSi HKZ7 (annealed) with AMETEK Low noise trafos (1:100) for LIA1, LIA2 and LIA3; LIA 1 and 2 are SR830s and LIA3 is AMETEK 7230
+#
+# B in [001]
+#
+# 10.0K FS from 5 to 18T with 0.1T/min with, B in 001, Excitation I=4mA rms
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.10	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	5	0.10	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Trying out a slow sweep
+#
+# 10.0K FS from 5 to 18T with 0.05T/min with, B in 001, Excitation I=4mA rms
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	5	0.05	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Trying out a higher time constant and sync filter for LIA2
+#
+# 10.0K FS from 5 to 18T with 0.05T/min with, B in 001, Excitation I=4mA rms, Time constants: 10s for all LIAs
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.05	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Trying out different AMETEK 1900 Low Noise Transformers (1:100 for LIA1 and 2; 1:1000 for LIA3)
+#
+# 10.0K FS from 5 to 18T with 0.05T/min (faster downsweep) with B in 001, Excitation I=4mA rms, Time constants: 10s for all LIAs
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	5	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Trying out different Preamplifications (1:100 for LIA1;1:1 for LIA2; 1:100 * 1:1000 (Model 5113 Preamp) for LIA3)
+#
+# 10.0K FS from 5 to 18T with 0.05T/min (faster downsweep) with B in 001, Excitation I=4mA rms, Time constants: 10s for all LIAs
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Set the amplification back to 1:100 for all LIAs
+# Trying out different time constants (1s for LIA1; 10s for LIA2; 30s for LIA3)
+#
+# 10.0K FS from 5 to 18T with 0.05T/min (faster downsweep) with B in 001, Excitation I=4mA rms
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Test with excitation from LIA with dropping resistance of 1kOhm
+#
+# 10.0K FS from 5 to 18T with 0.05T/min (faster downsweep) with B in 001, Excitation V=4V over 1kOhm dropping resistance
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Excitation switched back to Keithley 6221 current source
+# Test with MFLI LIA
+#
+# 10.0K FS from 5 to 18T with 0.05T/min (faster downsweep) with B in 001, Excitation I=4mA rms
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.05	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# Changed excitation to 10mA rms
+# Second MFLI Test to see whether the jumps are still there
+#
+# 10.0K FS from 5 to 18T with 0.1T/min (faster downsweep) with B in 001, Excitation I=10mA rms
+#1	10.0	00.05	10.0	00.05	5	0.20	18	0.10	26	26	26	5	00	0	000.00	000.00	0.00	0.00	0.0100	022.08	000.00
+#1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0100	022.08	000.00
+#
+# Trying out a very slow sweep
+#
+# 10.0K FS from 5 to 18T with 0.03T/min (faster downsweep) with B in 001, Excitation I=10mA rms
+1	10.0	00.05	10.0	00.05	5	0.20	18	0.03	26	26	26	30	00	0	000.00	000.00	0.00	0.00	0.0100	022.08	000.00
+1	10.0	00.05	10.0	00.05	18	0.10	0	0.20	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.0100	022.08	000.00
+#
+# End of command file
+0

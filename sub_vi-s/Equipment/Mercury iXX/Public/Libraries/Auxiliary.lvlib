@@ -62,4 +62,7 @@
 	<Item Name="Open" Type="Folder">
 		<Item Name="Open Auxiliary Device.vi" Type="VI" URL="../Auxiliary/Open/Open Auxiliary Device.vi"/>
 	</Item>
+	<Item Name="Angular Position (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Angular Position (Read).vi"/>
+	<Item Name="Target Angle (Read).vi" Type="VI" URL="../Auxiliary/Signals/Read/Target Angle (Read).vi"/>
+	<Item Name="Target Angle (Set).vi" Type="VI" URL="../Auxiliary/Signals/Set/Target Angle (Set).vi"/>
 </Library>

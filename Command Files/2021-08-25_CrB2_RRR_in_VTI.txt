@@ -1,0 +1,10 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NV%	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+#
+# T Sweep zur RRR Bestimmung
+#
+2	2.0	3.00	300.0	00.50	0	0.20	0	0.03	26	26	26	120	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+# Temperatur auf 5K setzen
+2	5.0	3.00	5.0	3.00	0	0.10	0	0.03	26	26	26	0	00	0	000.00	000.00	0.00	0.00	0.0040	022.08	000.00
+#
+# End of command file
+0
