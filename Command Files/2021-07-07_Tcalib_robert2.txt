@@ -1,0 +1,5 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NV%	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+# Tcalib 0T
+2	2.0	01.00	300	0.5	0	0.50	0	0.5	26	26	26	10	00	0	000.00	000.00	0.00	0.00	0.0050	022.08	000.00
+# End of command file
+0

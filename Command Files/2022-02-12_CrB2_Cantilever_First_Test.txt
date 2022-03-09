@@ -1,0 +1,33 @@
+#	T_init	T_i_pt	T_final	T_f_pt	H_init	H_i_pt	H_final	H_f_pt	LI1	LI2	LI3	Wt	NV%	#steps	I_init	I_final	Angle_i	Angle_f	622_amp	6221_fr	6221_off
+#
+# CrB2 on Cantilever
+#
+# First Test of Cantilever on Swedish Rotator in Juju
+#
+# Base Temp sweep with PTR switched on (Start sample temp ~100mK)
+#
+# FS from 5 to 18T (0.1T/min)
+#1	0.0	00.5	0.0	00.5	5	0.20	18	0.10	26	26	26	0	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#1	0.0	00.5	0.0	00.5	18	0.20	5	0.10	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#
+# Base Temp sweep with PTR switched off (Start sample temp ~55mK)
+#
+# FS from 5 to 18T (0.1T/min)
+#1	0.0	00.5	0.0	00.5	5	0.20	18	0.10	26	26	26	0	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#1	0.0	00.5	0.0	00.5	18	0.20	5	0.10	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#
+# Decoupled Rotator rod from MC; Base Temp sweep with PTR switched off (0.05T/min) (Start sample tempe ~25mK)
+#
+# FS from 5 to 18T (0.05T/min)
+#1	0.0	00.5	0.0	00.5	5	0.20	18	0.05	26	26	26	0	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#1	0.0	00.5	0.0	00.5	18	0.20	5	0.05	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#
+# Field Cooled with 18T along [100] from >90K to 4K, then cooled further down and rotated back to 0deg
+# Decoupled Rotator rod from MC; Base Temp sweep with PTR switched off (0.05T/min) (Start sample tempe ~30mK)
+#
+1	0.0	00.5	0.0	00.5	5	0.20	18	0.05	26	26	26	0	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+1	0.0	00.5	0.0	00.5	18	0.20	5	0.05	26	26	26	1	00	0	000.00	000.00	0.00	0.00	0.000	022.08	000.00
+#
+#
+# End of command file
+0

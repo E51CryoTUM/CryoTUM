@@ -1,0 +1,112 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Library LVVersion="19008000">
+	<Property Name="Instrument Driver" Type="Str">True</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
+	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
+
+Andeen-Hagerling AH 2700A precision multi-frequency capacitance bridge.</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*'!!!*Q(C=\&gt;3^43.B%-&lt;RBR-"S18OY/17JA7XY":'H*")H2)[I9"JQ9E,=%)"5Q(3#J%CY91#@0]&gt;$X='H?TEE$C*&gt;TX'@N[PHX?8F;J&gt;3/@;H7JX2VPV3^4YKA`^L?J&gt;`WO^(PP_HHIQ\VX`W.8J8`O\3W`X`L0`5&lt;_/NK`_L`\`O`^%9]T.S5%@X+3TEF**"?75V;`&lt;*8G3*XG3*XG3"XG1"XG1"XG1/\G4/\G4/\G4'\G2'\G2'\G2VU%O=J',H,/3&lt;*ZMF#S;,*!-BK,E,@%EHM34?0CKR*.Y%E`C34Q-5?**0)EH]31?JCHR**\%EXA3$UO6*/MARZ.Y7&amp;["*`!%HM!4?.B3A3=!"*M&amp;#Q?,Q&amp;$1'8Q)0)%H]0"2A3@Q"*\!%XDI6O!*0)%H]!1?JN2:C&gt;+-"TE?FJ(D=4S/R`%Y(J;7YX%]DM@R/"[WE_.R0!\#W&gt;":()+=3=Y!ZYPD=4T]E?.R0)\(]4A?OOI+?:W:54-?Z(A-D_%R0)&lt;(],#%$)`B-4S'R`#QL!S0Y4%]BM@QM*5-D_%R0!&lt;%W*4N:3RG4$1''9(BY66XC^66CJ*9(@WPO&lt;^2V4?A_M:3XT$K'U&amp;^A&gt;584HV"V#&gt;;@1,6*U&lt;^A^5`2!V5&lt;[R?5$V17^Y(;E/NK#7VI/&lt;5D*J3EX(K0R[YX7YV$)-WGYV7KZ77S[57CY8G]\FGMZGGU[EGE]HPJ^50DHU\/XQOP@S]@8CZ@FI`@\^@0V\&gt;LZ]PBY=RPW(=2^8_O@1:HIX[JNX"9ZZT^!N0&amp;HZ0!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI_IconEditor" Type="Str">49 54 48 48 56 48 50 52 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 34 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 182 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 0 153 255 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 0 153 255 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 255 255 253 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 255 255 253 255 255 253 255 255 253 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 255 255 253 255 255 253 255 255 253 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 255 255 253 0 153 255 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 153 255 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 255 255 253 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 4 70 105 108 108 100 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 1 1
+
+</Property>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+	</Item>
+	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Action-Status" Type="Folder">
+			<Item Name="Continuous.vi" Type="VI" URL="../Public/Action-Status/Continuous.vi"/>
+			<Item Name="Scan.vi" Type="VI" URL="../Public/Action-Status/Scan.vi"/>
+			<Item Name="Single.vi" Type="VI" URL="../Public/Action-Status/Single.vi"/>
+			<Item Name="Step.vi" Type="VI" URL="../Public/Action-Status/Step.vi"/>
+		</Item>
+		<Item Name="Configure" Type="Folder">
+			<Item Name="Analog Out Parameters" Type="Folder">
+				<Item Name="Config Aout Bias.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Bias.vi"/>
+				<Item Name="Config Aout Bound.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Bound.vi"/>
+				<Item Name="Config Aout CFactor.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout CFactor.vi"/>
+				<Item Name="Config Aout Limit.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Limit.vi"/>
+				<Item Name="Config Aout Limit Error.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Limit Error.vi"/>
+				<Item Name="Config Aout Source.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Source.vi"/>
+				<Item Name="Config Aout Span.vi" Type="VI" URL="../Public/Configure/Analog Out Parameters/Config Aout Span.vi"/>
+			</Item>
+			<Item Name="Basic Parameters" Type="Folder">
+				<Item Name="Config Brightness.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Brightness.vi"/>
+				<Item Name="Config Field.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Field.vi"/>
+				<Item Name="Config Format.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Format.vi"/>
+				<Item Name="Config Sample Switch.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Sample Switch.vi"/>
+				<Item Name="Config Units.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Units.vi"/>
+				<Item Name="Config Waitfor Sample.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Waitfor Sample.vi"/>
+				<Item Name="Config Waitfor Trgmode.vi" Type="VI" URL="../Public/Configure/Basic Parameters/Config Waitfor Trgmode.vi"/>
+			</Item>
+			<Item Name="Deviation Parameters" Type="Folder">
+				<Item Name="Config Dev Auto.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Auto.vi"/>
+				<Item Name="Config Dev Average.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Average.vi"/>
+				<Item Name="Config Dev Bound.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Bound.vi"/>
+				<Item Name="Config Dev Cutoff.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Cutoff.vi"/>
+				<Item Name="Config Dev Field.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Field.vi"/>
+				<Item Name="Config Dev Format.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Format.vi"/>
+				<Item Name="Config Dev Margin.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Margin.vi"/>
+				<Item Name="Config Dev Mode.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Mode.vi"/>
+				<Item Name="Config Dev Point.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Point.vi"/>
+				<Item Name="Config Dev Position.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Position.vi"/>
+				<Item Name="Config Dev Shunt.vi" Type="VI" URL="/&lt;instrlib&gt;/Andeen-Hagerling 2700(400 firmware)/Public/Configure/Deviation Parameters/Config Dev Shunt.vi"/>
+				<Item Name="Config Dev Span.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Span.vi"/>
+				<Item Name="Config Dev Stream.vi" Type="VI" URL="../Public/Configure/Deviation Parameters/Config Dev Stream.vi"/>
+			</Item>
+			<Item Name="Gauge Parameters" Type="Folder">
+				<Item Name="Config Average.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Average.vi"/>
+				<Item Name="Config Bias.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Bias.vi"/>
+				<Item Name="Config Commutate.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Commutate.vi"/>
+				<Item Name="Config Continuous Interval.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Continuous Interval.vi"/>
+				<Item Name="Config Continuous Reset.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Continuous Reset.vi"/>
+				<Item Name="Config Continuous Total.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Continuous Total.vi"/>
+				<Item Name="Config Correct Cable.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Correct Cable.vi"/>
+				<Item Name="Config Correct CHG CLG (OptE).vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Correct CHG CLG (OptE).vi"/>
+				<Item Name="Config Correct DDNL (OptE).vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Correct DDNL (OptE).vi"/>
+				<Item Name="Config Correct Type (OptE).vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Correct Type (OptE).vi"/>
+				<Item Name="Config Frequency.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Frequency.vi"/>
+				<Item Name="Config Reference Mask.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Reference Mask.vi"/>
+				<Item Name="Config Reference Mode.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Reference Mode.vi"/>
+				<Item Name="Config Reference Percent.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Reference Percent.vi"/>
+				<Item Name="Config Reference Point.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Reference Point.vi"/>
+				<Item Name="Config Voltage.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Voltage.vi"/>
+				<Item Name="Config Zero Mode.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Zero Mode.vi"/>
+				<Item Name="Config Zero Point.vi" Type="VI" URL="../Public/Configure/Gauge Parameters/Config Zero Point.vi"/>
+			</Item>
+			<Item Name="Scan Parameters" Type="Folder">
+				<Item Name="Config Scan Frequency.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Frequency.vi"/>
+				<Item Name="Config Scan Sample.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Sample.vi"/>
+				<Item Name="Config Scan Voltage.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Voltage.vi"/>
+				<Item Name="Config Scan Variables Reset.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Variables Reset.vi"/>
+				<Item Name="Config Scan Variables STMode.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Variables STMode.vi"/>
+				<Item Name="Config Scan Variables Total.vi" Type="VI" URL="../Public/Configure/Scan Parameters/Config Scan Variables Total.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Data" Type="Folder">
+			<Item Name="Message Available.vi" Type="VI" URL="../Public/Data/Message Available.vi"/>
+			<Item Name="Read All.vi" Type="VI" URL="../Public/Data/Read All.vi"/>
+			<Item Name="Read Line.vi" Type="VI" URL="../Public/Data/Read Line.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="../Public/Data/Read.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="../Public/Data/Write.vi"/>
+		</Item>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Device Clear.vi" Type="VI" URL="../Public/Utility/Device Clear.vi"/>
+			<Item Name="Error Message.vi" Type="VI" URL="../Public/Utility/Error Message.vi"/>
+			<Item Name="ID Query.vi" Type="VI" URL="../Public/Utility/ID Query.vi"/>
+			<Item Name="Parse Measurement.vi" Type="VI" URL="../Public/Utility/Parse Measurement.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
+		</Item>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
+		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Andeen-Hagerling 2700(400 firmware)/Public/dir.mnu"/>
+	</Item>
+</Library>
